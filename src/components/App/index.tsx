@@ -1,5 +1,9 @@
+import { Pages } from 'src/pages'
+
 export const App = () => {
     return (
-        <div>qq</div>
+        <div>
+            <Pages />
+        </div>
     )
 }
