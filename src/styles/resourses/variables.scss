@@ -1,10 +1,12 @@
 // === FONT-WEIGHT === //
 
 $font-weight-main: 400;
+$font-weight-xl: 500;
 
 // === FONT-SIZE === //
 
-$font-size-xxl: 48px;
+$font-main: 16px;
+$font-size-xxl: 24px;
 
 // === LINE_HEIGHTS === //
 
@@ -15,10 +17,17 @@ $line-height-main-xxl: 56.25px;
 $MainFont: #FFFFFF;
 $Background: #161616;
 
-// === width === //
+// === width-height === //
 
 $width-full: 100%;
+$width-btn: 90%;
+
+$button-height: 48px;
 
 // === margin === //
 
 $margin-gap: 32px;
+
+// === border === //
+
+$border-radius-main: 8px;
