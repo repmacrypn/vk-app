@@ -9,6 +9,7 @@ export const Welcome = () => {
                 Привет! Хочешь узнать, какой ты трансформер по знаку зодиака?
             </div>
             <NavButton
+                to='main'
                 className='greetings'
                 text='Да!'
             />

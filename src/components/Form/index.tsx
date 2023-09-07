@@ -37,6 +37,7 @@ export const Form = () => {
                 className='greetings'
                 text='Рассчитаем!'
                 callBack={handleButtonClick}
+                to='congratulations'
             />
         </section>
     )
