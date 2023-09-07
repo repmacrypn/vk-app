@@ -16,18 +16,28 @@ $line-height-main-xxl: 56.25px;
 
 $MainFont: #FFFFFF;
 $Background: #161616;
+$input-bgc: #2A2B31;
+$main-yellow: #FBE54D;
+$yellow-hover: #f4d71c;
 
-// === width-height === //
+// === WIDTH_HEIGHT === //
 
 $width-full: 100%;
 $width-btn: 90%;
+$max-btn-width: 400px;
+$min-width: 300px;
+$max-input-width: 500px;
 
 $button-height: 48px;
+$input-height: 32px;
 
-// === margin === //
+// === MARGIN === //
 
 $margin-gap: 32px;
+$margin-gap: 20px;
 
-// === border === //
+// === BORDER === //
 
 $border-radius-main: 8px;
+$border-radius-xs: 6px;
+$border-main: 1px solid $main-yellow;
