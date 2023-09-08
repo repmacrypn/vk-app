@@ -6,7 +6,7 @@ import { saveUserData } from 'src/store/slice/userDataSlice'
 import { IFormControlResult } from 'src/components/Form/interface'
 
 export const useFormControl = (): IFormControlResult => {
-    const [zodiacValue, setZodiacValue] = useState('')
+    const [zodiacValue, setZodiacValue] = useState('Близнецы')
     const [nameValue, setNameValue] = useState('')
 
     const dispatch = useAppDispatch()
