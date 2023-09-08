@@ -1,0 +1,17 @@
+@import 'src/styles/resourses/variables.scss';
+
+.name {
+    display: inline-block;
+}
+
+.logo {
+    position: absolute !important;
+    bottom: 8px;
+    right: 7%;
+    height: 90px;
+}
+
+.title {
+    font-family: $font-family-title;
+    font-size: $font-size-xl;
+}

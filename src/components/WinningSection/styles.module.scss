@@ -1,0 +1,17 @@
+@import 'src/styles/resourses/variables.scss';
+
+.data {
+    &>div {
+        margin: 15px 8px;
+    }
+}
+
+.content {
+    padding: 0 15px;
+}
+
+.image {
+    img {
+        border-radius: $border-radius-main;
+    }
+}
