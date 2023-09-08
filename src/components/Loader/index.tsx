@@ -1,6 +1,11 @@
-/* import styles from './styles.module.scss' */
 import loader from 'src/assets/loader.svg'
 
+import styles from './styles.module.scss'
+
 export const Loader = () => {
-    return <img alt='Loader' src={loader} /* className={styles.loader} */ />
+    return (
+        <div className={styles.wrapper}>
+            <img alt='Loader' src={loader} />
+        </div>
+    )
 }

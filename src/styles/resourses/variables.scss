@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+// === FONT-WEIGHT === //
+
+$font-family-main: 'Roboto', sans-serif;
+$font-family-title: 'Lora', serif;
+
 // === FONT-WEIGHT === //
 
 $font-weight-main: 400;
@@ -6,6 +13,7 @@ $font-weight-xl: 500;
 // === FONT-SIZE === //
 
 $font-main: 16px;
+$font-size-xl: 22px;
 $font-size-xxl: 24px;
 
 // === LINE_HEIGHTS === //
@@ -16,6 +24,7 @@ $line-height-main-xxl: 56.25px;
 
 $MainFont: #FFFFFF;
 $Background: #161616;
+$spareBack: antiquewhite;
 $input-bgc: #2A2B31;
 $main-yellow: #FBE54D;
 $yellow-hover: #f4d71c;
