@@ -10,7 +10,7 @@ export const Congrats = () => {
         <LoadingLayout>
             <div className={styles.congratsWrapper}>
                 <Background>
-                    <div>
+                    <div className={styles.congratsContent}>
                         <Title>
                             Сертификат
                         </Title>
